@@ -2,7 +2,7 @@ name: 恢复vless服务
 
 on:
   schedule:
-    - cron: '*/180 * * * *'  # 每180分钟执行一次
+    - cron: '*/60 * * * *'  # 每60分钟执行一次
   workflow_dispatch:
 
 jobs:
